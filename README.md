@@ -23,7 +23,7 @@
 
 # www
 
-- As the php dockerfile folder running on localhost:8000
+- As the php dockerfile folder running on localhost:8010
 
 # Important!
 
