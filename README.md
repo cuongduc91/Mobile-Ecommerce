@@ -46,6 +46,12 @@ npm install -g sass
 sudo npm i -g sass
 ```
 
+## Bootstrap
+
+- Embed the bootstrap links via https://getbootstrap.com
+
+## OWL Carousel
+
 ## Important!
 
 ### Granting privileges to another user
