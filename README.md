@@ -25,13 +25,34 @@
 
 - As the php dockerfile folder running on localhost:8010
 
+## Nodejs
+
+- Download and install npm package via https://nodejs.org/en/
+- Initialize the package
+
+```
+npm init
+```
+
 ## SASS
+
+```
+npm install -g sass
+```
+
+- In case of permission restriction:
+
+```
+sudo npm i -g sass
+```
 
 ## Important!
 
 ### Granting privileges to another user
 
 ### In terminal:
+
+- For granting user privileges
 
 ```
 docker exec -it <container name or id>   bash
