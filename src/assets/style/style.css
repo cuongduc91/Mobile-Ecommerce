@@ -96,8 +96,18 @@ button:focus {
   text-decoration: none;
 }
 #special-price .grid .grid-item {
-  margin-right: 1rem;
+  margin-right: 1.2rem;
   margin-top: 1rem;
+}
+
+#new-phones .owl-carousel .item .product a:hover {
+  text-decoration: none;
+}
+#new-phones .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#new-phones .owl-carousel .item .product img:hover {
+  transform: scale(1.15);
 }
 
 /*# sourceMappingURL=style.css.map */
