@@ -2,6 +2,11 @@
 #top-sale {
   .owl-carousel .item .product a {
     overflow: hidden;
+
+  }
+
+  .owl-carousel .item .product a:hover {
+    text-decoration: none;
   }
 
   .owl-carousel .item .product img {
