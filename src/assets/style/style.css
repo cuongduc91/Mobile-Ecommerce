@@ -95,5 +95,9 @@ button:focus {
 #special-price .grid-item .item .product a:hover {
   text-decoration: none;
 }
+#special-price .grid .grid-item {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
