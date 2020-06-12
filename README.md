@@ -52,6 +52,9 @@ sudo npm i -g sass
 
 ## OWL Carousel
 
+- Embed the links via https://cdnjs.com
+- index.js file will serve the function calls of OWL Carousel
+
 ## Important!
 
 ### Granting privileges to another user
