@@ -20,19 +20,19 @@ $(document).ready(function () {
         items: 5
       }
     }
-  })
+  });
   // isotope filter
   var $grid = $(".grid").isotope({
     itemSelector: '.grid-item',
     layoutMode: 'fitRows'
-  })
+  });
   //filter on button click
   $(".button-group").on("click", "button", function () {
     var filterValue = $(this).attr("data-filter");
     $grid.isotope({
       filter: filterValue
     });
-  })
+  });
   //New phones button//top sale owl Carousel
   $("#new-phones .owl-carousel").owlCarousel({
     loop: true,
@@ -49,5 +49,20 @@ $(document).ready(function () {
         items: 5
       }
     }
-  })
+  });
+
+  //Blogs owl Carousel
+  $("#blogs .owl-carousel").owlCarousel({
+    loop: true,
+    nav: false,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      }
+    }
+  });
 })
