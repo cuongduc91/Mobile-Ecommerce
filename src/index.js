@@ -21,7 +21,7 @@ $(document).ready(function () {
       }
     }
   });
-  // isotope filter
+  // isotope filter 
   var $grid = $(".grid").isotope({
     itemSelector: '.grid-item',
     layoutMode: 'fitRows'
