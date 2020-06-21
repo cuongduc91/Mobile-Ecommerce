@@ -69,10 +69,11 @@ $(document).ready(function () {
   // product quantity section
   let $qty_up = $(".qty .qty-up");
   let $qty_down = $(".qty .qty-down");
-  let $input = $(".qty .qty_input");
+  // let $input = $(".qty .qty_input");
 
   // click event 
   $qty_up.click(function (e) {
+    let $input = $(`.qty_input[data-id='${$(this).data("id")}']`);
     if ($input.val() >= 1 && $input.val() <= 9) {
       $input.val(function (index, oldval) {
         return ++oldval;
@@ -81,6 +82,7 @@ $(document).ready(function () {
   })
   //down button
   $qty_down.click(function (e) {
+    let $input = $(`.qty_input[data-id='${$(this).data("id")}']`);
     if ($input.val() > 1 && $input.val() <= 10) {
       $input.val(function (index, oldval) {
         return --oldval;
